@@ -1,6 +1,6 @@
 # WEB-FishFeeder
 
-O site Fish Feeder tem como objetivo ser a tela principal do projeto de alimentador, mostrando informações sobre o protótipo. Este projeto gira em torno do mundo da aquariofilia, mais especificamente dos peixes ornamentais, ou peixes de aquário. As categorias a serem mostradas, são: 
+O **site estático** Fish Feeder tem como objetivo ser a tela principal do projeto de alimentador, mostrando informações sobre o protótipo. Este projeto gira em torno do mundo da aquariofilia, mais especificamente dos peixes ornamentais, ou peixes de aquário. As categorias a serem mostradas, são: 
 
 - Espécies; 
 - Alimentação; 
