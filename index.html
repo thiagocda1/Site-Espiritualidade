@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="shortcut icon" type="image/x-icon" href="C:\Users\Restaurante\Documents\WEB-FishFeeder\Pictures/favicon.ico">
+ 	<!-- 
+		configura a compatibilidade do Internet Explorer -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- 
+		configura o viewport para sempre trabalhar com uma escala 1:1, 
+		como tbm ajustar a largura de acordo com o dispositivo -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- 
+		configura algumas informações para facilitar ser achado pelos 
+		motores de busca -->
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Prática de AutoriaWEB">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Thiago Calixto">
+	
+    
+	 <style type="text/css"> 
+	
+	
+	<title>Fish Feeder</title>
+ 	<link rel="stylesheet" href="cabecalho.css">
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	 </style>
+</head>
+ <body>
+ <header class="cabecalho-login">
+	<div class="cabecalho-limite">
+ 		<h1><a href="#">Fish<span>Feeder</span></a></h1>
+ 		<nav>
+				<a href="#">Pagina Inicial</a>
+				<a href="#">Especies</a>
+				<a href="#">Alimentacao</a>
+				<a href="#">Controle</a>
+				<a href="#">Agendamento</a>
+				<a href="#" class="selected">Sobre</a>
+		</nav>
+ 		<ul>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">Cadastre-se</a></li>
+		</ul>
+ 	</div>
+ </header>
+ <form action="/pagina-processa-dados-do-form" method="post">
+    <div>
+        <label for="especie">Espécie:</label>
+        <input type="especie" id="especie" />
+    </div>
+	  <div>
+        <label for="idade">Idade:</label>
+        <input id="idade"></input>
+    </div>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="nome" id="nome" />
+    </div>
+	 <div>
+        <label for="sexo">Sexo:</label>
+        <input type="sexo" id="sexo" />
+    </div>
+  
+    <div class="button">
+        <button type="cadastrar">cadastrar</button>
+    </div>
+</form>
+ </body>
+ </html>
